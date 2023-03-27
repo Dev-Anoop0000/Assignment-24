@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div{
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    margin: 1rem;
+    box-shadow: 0px 0px 10px rgb(84, 4, 242);
+    position: absolute;
+}
+button{
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: rgb(110, 33, 252);
+    background-color: #FFFFFF;
+    border: 2px solid rgb(110, 33, 252);
+}
+#result{
+    display: flex;
+    background-color: blueviolet;
+    color: #FFFFFF;
+    z-index: -1;
+}

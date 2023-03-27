@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container {
+    height: 30vh;
+    width: 50vw;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  
+  #display {
+    font-size: 50px;
+  }

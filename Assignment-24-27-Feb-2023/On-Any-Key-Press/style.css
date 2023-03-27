@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+    width: 350px;
+    background-color: darkmagenta;
+    color: #ffffff;
+    margin: 1rem;
+    border-radius: 20px;
+    padding: 2rem;
+}
+#card-2{
+    display: none;
+}
+input{
+    width: 90%;
+    font-size: 20px;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+span{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ffffff;
+    width: auto;
+    padding: 0 10px;
+    border-radius: 5px;
+}
